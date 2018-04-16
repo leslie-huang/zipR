@@ -4,12 +4,12 @@
 #' @param y vector-like object
 #' @param broadcast defaults to FALSE; if TRUE, shorter sequence is repeated until its length is equal to that of the longer sequence
 #' @param fill defaults to FALSE; bool for whether fillvalue should be implemented
-#' @param fillvalue value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence
+#' @param fillvalue value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence. Defaults to NA
 #'
 #' @export
 
 
-zipr <- function(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = NA) {
+zipr <- function(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = c(NA)) {
   if (broadcast == TRUE & fill == TRUE) {
     stop("Error: cannot specify both broadcast = TRUE and fillvalue = seq ")
   }

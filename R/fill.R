@@ -7,7 +7,7 @@
 #' @export
 
 
-fill <- function(shorter, longer, fillvalue) {
+fill <- function(longer, shorter, fillvalue) {
   diff <- length(longer) - length(shorter)
 
   fillers <- rep(fillvalue, diff)[1:diff]

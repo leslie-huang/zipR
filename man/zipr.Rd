@@ -4,7 +4,7 @@
 \alias{zipr}
 \title{zip two vector-like objects into a dataframe}
 \usage{
-zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = NA)
+zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = c(NA))
 }
 \arguments{
 \item{x}{vector-like object}
@@ -15,7 +15,7 @@ zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = NA)
 
 \item{fill}{defaults to FALSE; bool for whether fillvalue should be implemented}
 
-\item{fillvalue}{value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence}
+\item{fillvalue}{value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence. Defaults to NA}
 }
 \description{
 zip two vector-like objects into a dataframe

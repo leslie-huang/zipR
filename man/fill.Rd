@@ -4,12 +4,12 @@
 \alias{fill}
 \title{Use a given fillvalue to fill in a shorter sequence and returns a sequence of equal length to the longer sequence. Takes a subset of the fill sequence if fill sequence is longer than the difference between the longer and shorter sequences}
 \usage{
-fill(shorter, longer, fillvalue)
+fill(longer, shorter, fillvalue)
 }
 \arguments{
-\item{shorter}{shorter vector-like object}
-
 \item{longer}{longer vector-like object}
+
+\item{shorter}{shorter vector-like object}
 
 \item{fillvalue}{sequence of value(s) to fill in shorter vector. If fillvalue is longer than the difference between `shorter` and `longer`, values from fillvalue will be taken only until `shorter` is the same length as `longer`}
 }
