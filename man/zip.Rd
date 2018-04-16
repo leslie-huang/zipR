@@ -4,7 +4,7 @@
 \alias{zip}
 \title{zip two vector-like objects into a dataframe}
 \usage{
-zip(x, y, broadcast = FALSE)
+zip(x, y, broadcast = FALSE, fillvalue = NA)
 }
 \arguments{
 \item{x}{vector-like object}
@@ -12,6 +12,8 @@ zip(x, y, broadcast = FALSE)
 \item{y}{vector-like object}
 
 \item{broadcast}{defaults to FALSE; if TRUE, shorter sequence is repeated until its length is equal to that of the longer sequence}
+
+\item{fillvalue}{value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence}
 }
 \description{
 zip two vector-like objects into a dataframe
