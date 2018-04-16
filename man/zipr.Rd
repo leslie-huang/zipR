@@ -4,7 +4,7 @@
 \alias{zipr}
 \title{zip two vector-like objects into a dataframe}
 \usage{
-zipr(x, y, broadcast = FALSE, fill = FALSE, fillvalue = NA)
+zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = NA)
 }
 \arguments{
 \item{x}{vector-like object}

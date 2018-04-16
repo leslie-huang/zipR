@@ -9,7 +9,7 @@
 #' @export
 
 
-zipr <- function(x, y, broadcast = FALSE, fill = FALSE, fillvalue = NA) {
+zipr <- function(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = NA) {
   if (broadcast == TRUE & fill == TRUE) {
     stop("Error: cannot specify both broadcast = TRUE and fillvalue = seq ")
   }
