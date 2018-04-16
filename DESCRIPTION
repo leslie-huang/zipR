@@ -1,0 +1,9 @@
+Package: zipR
+Title: zip() Python-style for R
+Version: 0.0.0.9000
+Authors@R: person("Leslie", "Huang", email = "lesliehuang@nyu.edu", role = c("aut", "cre"))
+Description: Implementation of zip(), Python-style, for R.
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
