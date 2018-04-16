@@ -125,6 +125,8 @@ $(document).ready(function () {
 
 <div id="introducing-zipr-zip-for-r" class="section level2">
 <h2>Introducing zipR: zip() for R</h2>
+<p>zip() is an incredibly handy built-in function in Python. Unlike many other great Python features/structures (such as iterators, generators, and dictionaries), zip() is relatively easy to implement in R. Here is a brief introduction to <code>zipR</code>.</p>
+<p>This is a work in progress! For bugs and features, please <a href="https://github.com/leslie-huang/zipR">open an issue on GitHub</a>.</p>
 <div id="loading-the-library" class="section level3">
 <h3>Loading the library</h3>
 <pre class="r"><code>library(devtools)
@@ -136,6 +138,7 @@ devtools::install_github(&quot;leslie-huang/zipR&quot;)</code></pre>
 </div>
 <div id="dummy-data" class="section level3">
 <h3>Dummy data</h3>
+<p>Some sequences of different lengths, in order to test the different options available in <code>zipr</code>.</p>
 <pre class="r"><code>a &lt;- c(1,2,3)
 b &lt;- c(4,5,6)
 c &lt;- c(1,2,3,4,5,6)
@@ -145,7 +148,7 @@ filler &lt;- c(NA)</code></pre>
 </div>
 <div id="zip-two-vectors-of-the-same-length" class="section level3">
 <h3>zip two vectors of the same length</h3>
-<pre class="r"><code>zipr(a,b)</code></pre>
+<pre class="r"><code>zipR::zipr(a,b)</code></pre>
 <pre><code>##   x y
 ## 1 1 4
 ## 2 2 5

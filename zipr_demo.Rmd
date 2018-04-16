@@ -11,6 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introducing zipR: zip() for R
 
+zip() is an incredibly handy built-in function in Python. Unlike many other great Python features/structures (such as iterators, generators, and dictionaries), zip() is relatively easy to implement in R. Here is a brief introduction to `zipR`.
+
+This is a work in progress! For bugs and features, please <a href="https://github.com/leslie-huang/zipR">open an issue on GitHub</a>.
+
 ### Loading the library
 
 ```{r echo=TRUE}
@@ -22,6 +26,8 @@ library(zipR)
 ```
 
 ### Dummy data
+
+Some sequences of different lengths, in order to test the different options available in `zipr`.
 ```{r echo=TRUE}
 a <- c(1,2,3)
 b <- c(4,5,6)
@@ -34,7 +40,7 @@ filler <- c(NA)
 ### zip two vectors of the same length
 
 ```{r}
-zipr(a,b)
+zipR::zipr(a,b)
 
 ```
 
