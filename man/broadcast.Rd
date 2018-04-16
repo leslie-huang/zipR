@@ -2,14 +2,15 @@
 % Please edit documentation in R/broadcast.R
 \name{broadcast}
 \alias{broadcast}
-\title{broadcasts a shorter vector-like object into a vector of equal length as a longer vector-like object
-longer longer vector-like object
-shorter shorter vector-like object}
+\title{broadcasts a shorter vector-like object into a vector of equal length as a longer vector-like object}
 \usage{
 broadcast(longer, shorter)
 }
+\arguments{
+\item{longer}{longer vector-like object}
+
+\item{shorter}{shorter vector-like object}
+}
 \description{
 broadcasts a shorter vector-like object into a vector of equal length as a longer vector-like object
-longer longer vector-like object
-shorter shorter vector-like object
 }
