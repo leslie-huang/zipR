@@ -1,5 +1,8 @@
 #'
 #' zip two vector-like objects into a dataframe
+#' x vector-like object
+#' y vector-like object
+#' broadcast defaults to FALSE; if TRUE, shorter sequence is repeated until its length is equal to that of the longer sequence
 
 zip <- function(x, y, broadcast = FALSE) {
   if (broadcast == FALSE) {
@@ -8,11 +11,10 @@ zip <- function(x, y, broadcast = FALSE) {
   
   else {
     if (length(x) > length(y)) {
-      y <- rep(y, ceiling(length(x) / length(y) ) )[1:length(x)]
+      y <- broadcast(x, y)
     }
     else {
-      x <- rep(x, ceiling(length(y) / length(x) ) )[1:length(y)]
-      
+      x <- broadcast(y, x)
     }
   }
   

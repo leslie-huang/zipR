@@ -2,10 +2,16 @@
 % Please edit documentation in R/zip.R
 \name{zip}
 \alias{zip}
-\title{zip two vector-like objects into a dataframe}
+\title{zip two vector-like objects into a dataframe
+x vector-like object
+y vector-like object
+broadcast defaults to FALSE; if TRUE, shorter sequence is repeated until its length is equal to that of the longer sequence}
 \usage{
 zip(x, y, broadcast = FALSE)
 }
 \description{
 zip two vector-like objects into a dataframe
+x vector-like object
+y vector-like object
+broadcast defaults to FALSE; if TRUE, shorter sequence is repeated until its length is equal to that of the longer sequence
 }
