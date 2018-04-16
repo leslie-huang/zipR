@@ -4,7 +4,7 @@
 #' @param y vector-like object
 
 check_length <- function(x, y) {
-  if (len(x) != len(y)) {
+  if (length(x) != length(y)) {
     stop("Error: x, y unequal lengths")
   }
   else {
