@@ -3,13 +3,15 @@
 #' @param shorter shorter vector-like object
 #' @param longer longer vector-like object
 #' @param fillvalue sequence of value(s) to fill in shorter vector. If fillvalue is longer than the difference between `shorter` and `longer`, values from fillvalue will be taken only until `shorter` is the same length as `longer`
-#' 
+#'
+#' @export
+
 
 fill <- function(shorter, longer, fillvalue) {
   diff <- length(longer) - length(shorter)
-  
+
   fillers <- rep(fillvalue, diff)[1:diff]
   shorter <- c(shorter, fillers)
-  
+
   return(shorter)
 }
