@@ -7,8 +7,7 @@
 #' @param fillvalue value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence
 #' 
 
-
-zip <- function(x, y, broadcast = FALSE, fill = FALSE, fillvalue = NA) {
+zipr <- function(x, y, broadcast = FALSE, fill = FALSE, fillvalue = NA) {
   if (broadcast == TRUE & fill == TRUE) {
     stop("Error: cannot specify both broadcast = TRUE and fillvalue = seq ")
   }
