@@ -10,3 +10,5 @@ To install:
 
 
 \* without the functionality of iterators or tuples.
+
+See the demo for zipR <a href="https://leslie-huang.github.io/zipr/zipr_demo.html">here</a>.
