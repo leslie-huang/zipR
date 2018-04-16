@@ -3,7 +3,6 @@
 #' @param shorter shorter vector-like object
 #'
 #' @export
-#'
 broadcast <- function(longer, shorter) {
-  return (rep(y, ceiling(length(x) / length(y) ) )[1:length(x)])
+  return (rep(shorter, ceiling(length(longer) / length(shorter) ) )[1:length(longer)])
 }
