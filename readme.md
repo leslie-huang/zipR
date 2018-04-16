@@ -9,4 +9,4 @@ To install:
 `devtools::install_github("leslie-huang/zipR")`
 
 
-* without the functionality of iterators or tuples.
+\* without the functionality of iterators or tuples.
