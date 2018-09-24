@@ -12,7 +12,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Travis-CI Build Status](https://travis-ci.org/leslie-huang/zipR.svg?branch=master)](https://travis-ci.org/leslie-huang/zipR) [![Build status](https://ci.appveyor.com/api/projects/status/384insyingv6jcg2?svg=true)](https://ci.appveyor.com/project/leslie-huang/zipR)
+[![Travis-CI Build Status](https://travis-ci.org/leslie-huang/zipR.svg?branch=master)](https://travis-ci.org/leslie-huang/zipR)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leslie-huang/zipR?branch=master&svg=true)](https://ci.appveyor.com/project/leslie-huang/zipR)
+
 
 # zipR version 0.1.0
 
