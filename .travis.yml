@@ -1,0 +1,13 @@
+language: r
+r:
+  - oldrel
+  - release
+  - devel
+  
+cache: packages
+
+os:
+  - linux
+  - osx
+  
+sudo: false
