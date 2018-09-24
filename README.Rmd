@@ -1,13 +1,24 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 [![Travis-CI Build Status](https://travis-ci.org/leslie-huang/zipR.svg?branch=master)](https://travis-ci.org/leslie-huang/zipR) [![Build status](https://ci.appveyor.com/api/projects/status/384insyingv6jcg2?svg=true)](https://ci.appveyor.com/project/leslie-huang/zipR)
 
-zipR version 0.1.0
-==================
+# zipR version 0.1.0
 
 ### An R library for zip()
 
-This library does one thing, and one thing only: implementing Python-style\* zip() for R.
+This library does one thing, and one thing only: implementing Python-style* zip() for R.
 
 To install:
 

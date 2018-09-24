@@ -4,7 +4,8 @@
 \alias{zipr}
 \title{zip two vector-like objects into a dataframe}
 \usage{
-zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = c(NA))
+zipr(x = x, y = x, broadcast = FALSE, fill = FALSE,
+  fillvalue = c(NA))
 }
 \arguments{
 \item{x}{vector-like object}
@@ -17,6 +18,25 @@ zipr(x = x, y = x, broadcast = FALSE, fill = FALSE, fillvalue = c(NA))
 
 \item{fillvalue}{value or sequence of value(s) to fill in shorter sequence until it is the same length as the longer sequence. Defaults to NA}
 }
+\value{
+A dataframe
+}
 \description{
 zip two vector-like objects into a dataframe
+}
+\examples{
+
+a <- c(1,2,3)
+
+# zip two vectors of the same length
+zipr(a,b)
+
+# zip two vectors of different lengths, repeating the shorter vector
+zipr(a, z, broadcast = TRUE)
+
+# zip two vectors of different lengths, using the default fill value
+zipr(z, a, fill = TRUE)
+
+# zip two vectors of different lengths, using a custom fill value
+zipr(c,a, fill = TRUE, fillvalue = z)
 }

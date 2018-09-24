@@ -1,10 +1,10 @@
 Package: zipR
 Title: zip() Python-style for R
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: person("Leslie", "Huang", email = "lesliehuang@nyu.edu", role = c("aut", "cre"))
-Description: Implementation of zip(), Python-style, for R.
+Description: Implementation of Python-style zip for R.
 Depends: R (>= 3.4.3)
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
