@@ -1,8 +1,8 @@
 Package: zipR
-Title: zip() Python-style for R
+Title: Python-style zip() for R
 Version: 0.1.0
 Authors@R: person("Leslie", "Huang", email = "lesliehuang@nyu.edu", role = c("aut", "cre"))
-Description: Implementation of Python-style zip for R.
+Description: Implements Python-style zip for R. Is a more flexible version of cbind.
 Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
@@ -10,4 +10,6 @@ LazyData: true
 RoxygenNote: 6.0.1.9000
 Suggests: knitr,
     rmarkdown, devtools
+URL: https://github.com/leslie-huang/zipR
+BugReports: https://github.com/leslie-huang/zipR/issues
 VignetteBuilder: knitr
