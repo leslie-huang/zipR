@@ -27,6 +27,11 @@ zip two vector-like objects into a dataframe
 \examples{
 
 a <- c(1,2,3)
+b <- c(4,5,6)
+c <- c(1,2,3,4,5,6)
+d <- c(7,8)
+z <- c(9)
+filler <- c(NA)
 
 # zip two vectors of the same length
 zipr(a,b)
