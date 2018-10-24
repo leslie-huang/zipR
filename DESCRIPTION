@@ -1,5 +1,5 @@
 Package: zipR
-Title: Python-style zip() for R
+Title: Pythonic Zip() for R
 Version: 0.1.0
 Authors@R: person("Leslie", "Huang", email = "lesliehuang@nyu.edu", role = c("aut", "cre"))
 Description: Implements Python-style zip for R. Is a more flexible version of cbind.
