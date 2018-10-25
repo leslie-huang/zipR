@@ -3,7 +3,7 @@ Title: Pythonic Zip() for R
 Version: 0.1.0
 Authors@R: person("Leslie", "Huang", email = "lesliehuang@nyu.edu", role = c("aut", "cre"))
 Description: Implements Python-style zip for R. Is a more flexible version of cbind.
-Depends: R (>= 3.3.0)
+Depends: R (>= 2.1.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
