@@ -11,21 +11,11 @@ This library does one thing, and one thing only: implementing Python-style\* zip
 
 ### To install
 
-`devtools::install_github("leslie-huang/zipR")`
+`install.packages("zipR")`
 
 \* without the functionality of iterators or tuples.
 
 ### Quick demo
-
-    #> Downloading GitHub repo leslie-huang/zipR@master
-    #> from URL https://api.github.com/repos/leslie-huang/zipR/zipball/master
-    #> Installing zipR
-    #> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
-    #>   --no-environ --no-save --no-restore --quiet CMD INSTALL  \
-    #>   '/private/var/folders/w3/gyjcgdsx15vc8y_zdl2rd2bh0000gn/T/RtmpbVKlrw/devtools2d014042618c/leslie-huang-zipR-5a285b2'  \
-    #>   --library='/Library/Frameworks/R.framework/Versions/3.5/Resources/library'  \
-    #>   --install-tests
-    #> 
 
 #### Dummy data
 

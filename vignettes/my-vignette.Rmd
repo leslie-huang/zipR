@@ -25,9 +25,6 @@ This is a work in progress! For bugs and features, please <a href="https://githu
 ### Loading the library
 
 ```{r echo=FALSE}
-library(devtools)
-
-devtools::install_github("leslie-huang/zipR")
 
 library(zipR)
 ```

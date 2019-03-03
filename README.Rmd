@@ -25,7 +25,7 @@ This library does one thing, and one thing only: implementing Python-style* zip(
 
 ### To install
 
-`devtools::install_github("leslie-huang/zipR")`
+`install.packages("zipR")`
 
 \* without the functionality of iterators or tuples.
 
@@ -34,9 +34,6 @@ This library does one thing, and one thing only: implementing Python-style* zip(
 
 
 ```{r echo=FALSE}
-library(devtools)
-
-devtools::install_github("leslie-huang/zipR")
 
 library(zipR)
 ```
